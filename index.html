@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Countdown JS</title>
+
+    <!-- Styles for MintBIT countdown -->
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
     <div class="countdown-container">
+        <h1>Timer using Javascript</h1>
         <div id="countdown">
             <div>
                 <span class="days"></span>
@@ -34,7 +38,7 @@
     <!-- Javascript -->
     <script>
         // Deadline Date and Time
-        var countDownDate = new Date("Nov 21, 2019 16:00:00").getTime();
+        var countDownDate = new Date("Nov 21, 2029 16:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {

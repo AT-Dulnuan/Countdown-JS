@@ -1,0 +1,20 @@
+/* Styles for MintBIT countdown */
+#countdown {
+    padding-top: 1.25rem;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #4EAC30;
+}
+
+#countdown span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#countdown .time-label {
+    text-transform: uppercase;
+}
